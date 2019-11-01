@@ -13,7 +13,12 @@ function range(userInput) {
 
     console.log(list);
 
-    if()
+    for (j = 0; j < list.length; j++) {
+        if (list[j] === 1 || list[j] === 21) {
+        }
+    }
+
+    console.log(list);
 
     list.length = 0;
 
@@ -33,7 +38,7 @@ $(document).ready(function() {
 
     range(userInput);
 
-    
+
     $('.results').show();
 
 

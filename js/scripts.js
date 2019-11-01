@@ -2,9 +2,7 @@
 let list = [];
 
 function range(userInput) {
-  if (userInput === "") {
-    console.log("Sorry Dave, you have to pick a number 1-100");
-  } else if (Number.isInteger(userInput) != true) {
+  if (Number.isInteger(userInput) != true) {
     console.log("We don't accept text, you have to enter a number value 1-100.");
   }
 
@@ -14,6 +12,8 @@ function range(userInput) {
     list.push(userInput);
 
     console.log(list);
+
+    if()
 
     list.length = 0;
 
@@ -33,6 +33,8 @@ $(document).ready(function() {
 
     range(userInput);
 
+    
+    $('.results').show();
 
 
 

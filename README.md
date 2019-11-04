@@ -4,13 +4,17 @@ Epicodus week 3 project lists numbers to user's input value and exchanges certai
 
 ## Getting Started
 
-Open project using [gh-pages](https://CaseyAntoine.github.io/suggester-survey) to view site in browser or clone repository to local system to run and edit code.
+Open project using [gh-pages](https://CaseyAntoine.github.io/BeepBoop) to view site in browser or clone repository to local system to run and edit code.
 
 
 ### Specs
  1. The program returns a range of numbers from 0 to users inputted number.
-  _Input: "4"_
-  _Output: "0, 1, 2, 3, 4"_
+  * _Input: "4"_
+  * _Output: "0, 1, 2, 3, 4"_
+
+ 2. Replace numbers that contain a 1, all digits are replaced with "Beep!"
+  * _Input: "4"_
+  * _Output: " 0, Beep!, 2, 3, 4"_
 
 ### Prerequisites
 

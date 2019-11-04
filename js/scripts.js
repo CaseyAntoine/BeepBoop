@@ -9,6 +9,7 @@ function range(userInput) {
 
     console.log(list);
 
+// check each object in array and replace determined values with code words.
     for (j = 0; j < list.length; j++) {
       if (list[j] === 1) {
         list.splice(j, 1, "Beep");
@@ -20,6 +21,8 @@ function range(userInput) {
     }
 
     console.log(list);
+
+    message(list);
 
     list.length = 0;
 
@@ -33,9 +36,12 @@ function check(userInput) {
     range(userInput);
   }
 }
-// check each object in array and replace determined values with code words.
-function message(userInput) {
 
+function message(list) {
+
+  for(i=0; i <= list.length; i++) {
+
+  }
 
 
   console.log(list);

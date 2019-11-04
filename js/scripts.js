@@ -9,6 +9,18 @@ function range(userInput) {
 
     console.log(list);
 
+    for (j = 0; j < list.length; j++) {
+      if (list[j] === 1) {
+        list.splice(j, 1, "Beep");
+      } else if ( list[j] === 2) {
+        list.splice(j, 1, "Boop");
+      } else if ( list[j] === 3) {
+        list.splice(j, 1, "I'm sorry, Dave. I'm afraid I can't do that.")
+      }
+    }
+
+    console.log(list);
+
     list.length = 0;
 
     console.log(list + " has been cleared.");
@@ -19,17 +31,12 @@ function check(userInput) {
     console.log("Sorry, you have to enter a number value 1-100.");
   } else {
     range(userInput);
-    message(userInput);
   }
 }
 // check each object in array and replace determined values with code words.
 function message(userInput) {
 
-  for (j = 0; j < list.length; j++) {
-    if (list[j] === 1) {
-      list.splice(0, 1, "Beep");
-    }
-  }
+
 
   console.log(list);
 }

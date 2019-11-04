@@ -16,6 +16,11 @@ Open project using [gh-pages](https://CaseyAntoine.github.io/BeepBoop) to view s
   * _Input: "4"_
   * _Output: " 0, Beep!, 2, 3, 4"_
 
+ 3. Replace numbers that contain a 2, all digits are replaced with "Boop!"
+  * _Input: "4"_
+  * _Output: "0, Beep!, Boop!, 3, 4"_
+
+  
 ### Prerequisites
 
 if cloning repository to your local system, you'll need command prompt(pc) or terminal(mac) and clone the repo and a text editor.
